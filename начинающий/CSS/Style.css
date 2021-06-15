@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    color: rgb(21, 23, 117);
+}
+
+
+h4,h2,h3{
+    color: rgb(93, 94, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+
+i{
+font-size: 80%;
+}
+
+
+.r {
+    font-size: 15px;
+    color: rgb(21, 23, 117);
+}
+/* *{
+    padding: 0px;
+} */
+
+.winter{
+    list-style-image: url(../icons/winter_16.png) ;
+}
+
+.spring{
+    list-style-image: url(../icons/spring_16.png) ;
+}
+
+.summer{
+    list-style-image: url(../icons/summer_16.png) ;
+ 
+}
+
+.autumn{
+    list-style-image: url(../icons/autumn_16.png) ;
+
+}
+
+#year{
+    list-style-type: none;
+}
+#year li::before {
+    content: ">"
+}
+
+.spring li{
+    margin: 10px; 
+    padding: 5px 10px;
+    background-color: lawngreen;
+}
+*{.spring{
+    padding: 0px;
+}
+#year .winter li::before,
+#year .summer li::before,
+#year .summer li::before,
+#year .autumn li::before {
+    content: "";
+}
+
+
